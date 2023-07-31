@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Nunito:wght@700&display=swap');
+*{margin: 0; padding: 0;}
+
+body{
+    height: 100vh;
+    background: linear-gradient(180deg, #B0FAFF, #5F229C 100%);
+    overflow: hidden;
+}
+.ball1{
+    width: 259px;
+    height: 249px;
+    flex-shrink: 0;
+    border-radius: 259px;
+    border: 2px solid #fff;
+    background: #00F0FF;
+    position: absolute;
+    top: -50px;
+    left: -130px;
+}
+.ball2{
+    width: 239px;
+    height: 230px;
+    flex-shrink: 0;
+    border-radius: 259px;
+    border: 2px solid #fff;
+    background: #8D99AF;
+    position: absolute;
+    top: -100px;
+    left: 230px;
+}
+.ball3{
+    width: 152px;
+    height: 146px;
+    flex-shrink: 0;
+    border-radius: 259px;
+    border: 2px solid #fff;
+    background: #8D99AF;
+    position: absolute;
+    top: 150px;
+    left: 130px;
+}
+.ball4{
+    width: 188px;
+    height: 181px;
+    flex-shrink: 0;
+    border-radius: 259px;
+    border: 2px solid #fff;
+    background: #00F0FF;
+    position: absolute;
+    top: 180px;
+    left: 350px;
+}
+.ball5{
+    width: 207px;
+    height: 198px;
+    flex-shrink: 0;
+    border-radius: 259px;
+    border: 2px solid #fff;
+    background: #00F0FF;
+    position: absolute;
+    top: 530px;
+    left: -50px;
+}
+.ball6{
+    width: 246px;
+    height: 236px;
+    flex-shrink: 0;
+    border-radius: 259px;
+    border: 2px solid #fff;
+    background: #00F0FF;
+    position: absolute;
+    top: 710px;
+    left: 130px;
+}
+.ball7{
+    width: 113px;
+    height: 108px;
+    flex-shrink: 0;
+    border-radius: 259px;
+    border: 2px solid #fff;
+    background: #8D99AF;
+    position: absolute;
+    top: 830px;
+    left: -30px;
+}
+.ball8{
+    width: 176px;
+    height: 169px;
+    flex-shrink: 0;
+    border-radius: 259px;
+    border: 2px solid #fff;
+    background: #8D99AF;
+    position: absolute;
+    top: 860px;
+    left: 400px;
+}
+.login{
+    width: 470px;
+    height: auto;
+    display: flex;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    background: #A8C7DC;
+    position: absolute;
+    top: 10vw;
+    left: 150vh;
+}
